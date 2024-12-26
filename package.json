@@ -10,10 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "dom": "^0.0.3",
+    "formik": "^2.4.6",
     "persist": "^0.2.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "redux": "^5.0.1",
+    "router": "^1.3.8",
     "toolkit": "^1.5.4"
   },
   "devDependencies": {
