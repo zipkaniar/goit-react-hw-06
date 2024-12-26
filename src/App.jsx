@@ -1,10 +1,10 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import ContactForm from './Components/ContactForm/ContactForm';
-import SearchBox from './Components/SearchBox';
-import ContactList from './Components/ContactList';
-import { addContact } from './Redux/contactsSlice';
-import { changeFilter } from './Redux/filtersSlice';
+import ContactForm from './components/contactForm/ContactForm';
+import SearchBox from './components/SearchBox';
+import ContactList from './components/ContactList';
+import { addContact } from './redux/contactsSlice';
+import { changeFilter } from './redux/filtersSlice';
 import './App.css';
 
 const App = () => {
