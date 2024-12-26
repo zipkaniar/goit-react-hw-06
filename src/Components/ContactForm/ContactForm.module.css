@@ -1,6 +1,6 @@
 .form {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; /* Alt alta hizalama */
   gap: 10px;
   max-width: 400px;
   margin: 0 auto;
@@ -14,22 +14,27 @@
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  background-color: #e0f7fa;
+  width: 100%; /* Tam genişlik */
 }
 
 .error {
-  color: red;
+  color: #ff5252;
   font-size: 12px;
 }
 
 .button {
   padding: 10px;
-  background-color: #007bff;
+  background-color: #4caf50;
   color: white;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
+  border-radius: 10px;
+  cursor: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #819682;
 }
